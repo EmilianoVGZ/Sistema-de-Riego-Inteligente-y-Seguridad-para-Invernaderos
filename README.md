@@ -1,10 +1,10 @@
-# 🌾 Sistema de Riego Inteligente, Seguridad Automatizada e IA frente a Plagas
+# Sistema de Riego Inteligente, Seguridad Automatizada e IA frente a Plagas
 
 Este repositorio contiene el código fuente desarrollado en Arduino para un prototipo de invernadero inteligente utilizando el microcontrolador **XIAO ESP32S3**. El sistema gestiona de manera local el riego autónomo, la seguridad contra incendios y el análisis predictivo visual para la detección de plagas mediante un modelo de Machine Learning integrado.
 
 ---
 
-## 🛠️ Arquitectura y Pines Utilizados
+## Arquitectura y Pines Utilizados
 
 El sistema se conecta a través de la **Seeed Studio Expansion Board v1.1** empleando la siguiente distribución de pines:
 
@@ -16,7 +16,7 @@ El sistema se conecta a través de la **Seeed Studio Expansion Board v1.1** empl
 
 ---
 
-## 🔬 Explicación Técnica del Código
+## Explicación Técnica del Código
 
 El firmware está estructurado para operar bajo un entorno multitarea simulado mediante el uso de la función `millis()`, evitando bloquear el procesador con funciones `delay()` innecesarias, excepto en casos de emergencia.
 
